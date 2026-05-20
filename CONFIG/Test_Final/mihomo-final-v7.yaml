@@ -273,7 +273,7 @@ dns:
     - RULE-SET,Microsoft,fake-ip
     - RULE-SET,Proxy,fake-ip
     - RULE-SET,China,real-ip
-    - MATCH,real-ip
+    - MATCH,fake-ip #从real-ip改为 fake-ip用作fakeip网关分流，如为realip无需添加其他规则在此中
 
 # ==================== 静态代理节点 ====================
 # 直连控制节点：IP版本精细化控制（UDP流量控制已由"代理UDP"策略组接管）
