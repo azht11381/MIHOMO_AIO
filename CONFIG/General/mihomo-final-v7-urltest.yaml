@@ -239,6 +239,9 @@ dns:
   fake-ip-filter:
     - RULE-SET,fakeip-filter,real-ip
     - DOMAIN,mimimi.com,real-ip
+    - DOMAIN-SUFFIX,pub.3gppnetwork.org,real-ip
+    - DOMAIN,gmcc234.pub.3gppnetwork.org,real-ip
+    - DOMAIN,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org,real-ip
     - RULE-SET,LocationDKS,fake-ip
     - RULE-SET,Private,real-ip
     - RULE-SET,FCM,real-ip
